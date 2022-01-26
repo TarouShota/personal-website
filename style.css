@@ -4,7 +4,7 @@
     padding: 0;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-
+    color: rgba(242, 247, 242);
 }
 a {
     text-decoration: none;
@@ -59,17 +59,17 @@ li:first-child{
     font-weight: bold;
 }
 article{
-    display: flex;
-    align-items:flex-start;
-    flex-direction: column;
     padding-top: 5rem;    
     padding-left:7.5rem;
     line-height: 3.6rem;
     letter-spacing: 0;
 }
-#welcome-text .header-text{
+.header-text{
     font-size: 2.4rem;
-    font-weight:bold;
+    font-weight: bold;
+}
+#webdev{
+    color: #64DFDF;
 }
 article p{
     color:rgba(255, 255, 255, 0.8);
@@ -86,44 +86,8 @@ article p{
 .contact img:last-child{
     width: 70px;
 }
-#robot{
-    margin-left: 28rem;
-    margin-top: -34%;
-    max-height:75vh;
-    max-width: 90vw;
+#main-ilustration{
+    max-width: 50vw;
+    max-height: 10vh;
 }
 
-
-
-
-/*body{
-   /* display: flex;
-    flex-direction: column;
-    background: linear-gradient(262.96deg, #FFFFFF -19.6%, #45D0EB 52.82%, #286AF8 134.13%);    color: white;
-    font-family: 'Raleway', sans-serif;
-    line-height: 75px;
-    margin:0;
-    padding:0;
-}   
-#logo-header{
-    display: flex;
-    justify-content:flex-start;
-    align-items: flex-start;
-    margin: 4rem 83rem 2rem 4rem;
-    border: 0.5em solid black;
-}
-ul{
-    border:0.5em solid black;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-li{
-    margin:5em;
-}
-
-h2{
-    font-weight: 200;
-*/
