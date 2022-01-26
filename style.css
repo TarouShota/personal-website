@@ -59,10 +59,14 @@ li:first-child{
     font-weight: bold;
 }
 article{
-    padding-top: 5rem;    
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    /*padding-top: 5rem;    
     padding-left:7.5rem;
-    line-height: 3.6rem;
+    */line-height: 3.6rem;
     letter-spacing: 0;
+
 }
 .header-text{
     font-size: 2.4rem;
@@ -77,7 +81,7 @@ article p{
     font-weight:normal;    
 }  
 .contact{
-    margin-left: -2%;
+    margin-left: -6%;
 }
 .contact img{
     margin: 1.5rem;
@@ -87,7 +91,7 @@ article p{
     width: 70px;
 }
 #main-ilustration{
-    max-width: 50vw;
-    max-height: 10vh;
+    max-width: 70vw;
+    max-height: 70vh;
 }
 
