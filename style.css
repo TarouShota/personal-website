@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 1.05em;
     font-family: 'Raleway', sans-serif;
     color: rgba(242, 247, 242);
 }
@@ -59,16 +58,16 @@ body{
 }
 article{
     display:flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 6em;  
-    margin-left:7.5rem;
+    align-items: flex-end;
+    justify-content: center;
     line-height: 3.6rem;
     letter-spacing: 0;
+    padding:4rem;
+
 
 }
 .header-text{
-    font-size: 2.4rem;
+    font-size: 6vh;
     font-weight: 600;
 }
 #webdev{
@@ -94,9 +93,10 @@ article p{
 #main-ilustration{
     max-width: 50vw; 
     max-height: 75vh;
-    justify-self: flex-end;
     padding-left: 1.8rem;
-    margin-top: -7%;
+    align-self: center;
+    position: relative;
+    top:2rem;
 
 }
 
