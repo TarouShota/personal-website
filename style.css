@@ -2,13 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 2.5vh;
     font-family: 'Raleway', sans-serif;
     color: rgba(242, 247, 242);
 }
 a {
     text-decoration: none;
-    color: rgba(242, 247, 242, 0.8);
 }
 li{
     list-style: none;
@@ -31,14 +30,12 @@ body{
 }
 #navbar ul{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 #navbar ul li a{
-    color: white;
-    margin-right: 100px;
+    margin-right: 5em;
     padding-right: 2rem;
-    font-size: 20px;
+    font-size: 1em;
 }
 #navbar ul li{
     padding-right: 0rem;
@@ -48,29 +45,31 @@ body{
     padding-left:6.7rem;
 }
 #logo-text{
-    font-size: 20px;
+    font-size: 1em;
 }
 #mail-icon{
     max-width:80px;
 }
 
 /* Main Section*/
-li:first-child{
+
+#aboutme{
+    color: #64DFDF;
     font-weight: bold;
 }
 article{
     display:flex;
-    align-items: flex-end;
-    justify-content: center;
-    /*padding-top: 5rem;    
-    padding-left:7.5rem;
-    */line-height: 3.6rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 6em;  
+    margin-left:7.5rem;
+    line-height: 3.6rem;
     letter-spacing: 0;
 
 }
 .header-text{
     font-size: 2.4rem;
-    font-weight: bold;
+    font-weight: 600;
 }
 #webdev{
     color: #64DFDF;
@@ -78,20 +77,23 @@ article{
 article p{
     color:rgba(255, 255, 255, 0.8);
     font-size:1.8rem;
-    font-weight:normal;    
+    font-weight: lighter;
 }  
 .contact{
     margin-left: -6%;
 }
 .contact img{
     margin: 1.5rem;
-    width: 3rem;
+    width: 2.2rem;
+
 }
 .contact img:last-child{
-    width: 70px;
+    width: 2.7rem;
 }
 #main-ilustration{
-    max-width: 70vw;
-    max-height: 70vh;
+    max-width: 50vw; 
+    max-height: 75vh;
+    justify-self: flex-end;
+    margin-top: -8%;
 }
 
