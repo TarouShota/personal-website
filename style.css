@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 2.5vh;
+    font-size: 1.05em;
     font-family: 'Raleway', sans-serif;
     color: rgba(242, 247, 242);
 }
@@ -78,6 +78,7 @@ article p{
     color:rgba(255, 255, 255, 0.8);
     font-size:1.8rem;
     font-weight: lighter;
+
 }  
 .contact{
     margin-left: -6%;
@@ -94,6 +95,8 @@ article p{
     max-width: 50vw; 
     max-height: 75vh;
     justify-self: flex-end;
-    margin-top: -8%;
+    padding-left: 1.8rem;
+    margin-top: -7%;
+
 }
 
