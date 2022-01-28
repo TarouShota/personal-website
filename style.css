@@ -6,7 +6,7 @@
     color: rgba(242, 247, 242);
 }
 html{
-    font-size: 1vmax;
+    font-size: 1.8vmin;
 }
 a {
     text-decoration: none;
@@ -62,7 +62,7 @@ article{
     justify-content: center;
     line-height:4rem;
     letter-spacing: 0;
-    height: 75vh;
+    height: 85vh;
     margin-top: -1%;
     padding:1rem;
     
