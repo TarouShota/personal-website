@@ -5,6 +5,9 @@
     font-family: 'Raleway', sans-serif;
     color: rgba(242, 247, 242);
 }
+html{
+    font-size: 1vmax;
+}
 a {
     text-decoration: none;
 }
@@ -16,33 +19,35 @@ body{
     background: linear-gradient(286.13deg, #64DFDF 4.4%, #56CFE1 17.74%, #4EA8DE 27.75%, #5390D9 40.51%, #5E60CE 53.24%, #6930C3 66.13%, #6528B8 79.77%, #580C92 93.23%);
     height: 100vh;
     max-height: 100%;
-    width: 95vw;
+}
+header{
+    font-size: 1rem;
 }
 
 /* Id Section*/
+
 #navbar{
     display: flex;
     justify-content: space-between;
-    padding: 1vmax;
-    margin-top:1.2vmax;
+    padding: 3rem;
+    padding-left: 10rem;
 
 }
+
 #navbar ul{
     display: flex;
     align-content: space-between;
 }
 #navbar ul li a{
-    margin-right:5vmax;
-    font-size: 2vmin;
+    font-size: 1.2rem;
+    padding:5rem;   
 }
 
 .logo-text{
-    font-size: 2vmin;
+    font-size: 1.2rem;
 
 }
-#mail-icon{
-    max-width:80px;
-}
+
 
 /* Main Section*/
 
@@ -56,10 +61,10 @@ article{
     justify-content: center;
     line-height: 3.6rem;
     letter-spacing: 0;
-    padding: 5vmax;
+    padding: 4rem;
 }
 .header-text{
-    font-size: 3vmax;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 #webdev{
@@ -84,11 +89,10 @@ article p{
 }
 #main-ilustration{
     max-width: 50vw; 
-    max-height: 75vh;
+    max-height: 50vh;
     padding-left: 1.8rem;
     align-self: center;
     position: relative;
-    top:2rem;
-
+    top:1rem;
 }
 
