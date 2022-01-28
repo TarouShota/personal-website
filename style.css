@@ -15,36 +15,30 @@ li{
 body{
     background: linear-gradient(286.13deg, #64DFDF 4.4%, #56CFE1 17.74%, #4EA8DE 27.75%, #5390D9 40.51%, #5E60CE 53.24%, #6930C3 66.13%, #6528B8 79.77%, #580C92 93.23%);
     height: 100vh;
-    max-height: 100%
+    max-height: 100%;
+    width: 95vw;
 }
 
 /* Id Section*/
 #navbar{
-    top:0;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    margin-top:2rem;
-    margin-top: 1rem;
+    padding: 1vmax;
+    margin-top:1.2vmax;
+
 }
 #navbar ul{
     display: flex;
-    align-items: center;    
+    align-content: space-between;
 }
 #navbar ul li a{
-    margin-right: 5em;
-    padding-right: 2rem;
-    font-size: 1em;
+    margin-right:5vmax;
+    font-size: 2vmin;
 }
-#navbar ul li{
-    padding-right: 0rem;
-    padding-left: 0rem;
-}
-#logo-header{
-    padding-left:6.7rem;
-}
-#logo-text{
-    font-size: 1em;
+
+.logo-text{
+    font-size: 2vmin;
+
 }
 #mail-icon{
     max-width:80px;
@@ -58,16 +52,14 @@ body{
 }
 article{
     display:flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     line-height: 3.6rem;
     letter-spacing: 0;
-    padding:4rem;
-
-
+    padding: 5vmax;
 }
 .header-text{
-    font-size: 6vh;
+    font-size: 3vmax;
     font-weight: 600;
 }
 #webdev{
