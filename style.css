@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    color: rgba(242, 247, 242);
+    color: #F2F2F2;
+    font-weight: 400;
 }
 html{
     font-size: 1.8vmin;
@@ -22,7 +23,7 @@ body{
 
 }
 header{
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 /* Id Section*/
@@ -76,7 +77,7 @@ article{
     color: #64DFDF;
 }
 article p{
-    color:rgba(255, 255, 255, 0.8);
+    color:#F2F2F2;
     font-size:2rem;
     font-weight: lighter;
 
