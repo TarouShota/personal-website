@@ -102,3 +102,34 @@ article p{
     top:1rem;
 }
 
+@media only screen and (max-width:620px) {
+    body{
+        background: linear-gradient(285.15deg, #64DFDF -16.45%, #5390D9 0.76%, #4EA8DE 19.22%, #5E60CE 41.99%, #6930C3 63.15%, #6528B8 80.74%, #580C92 98.09%);    }
+    html{
+        font-size: 2.5vmin;
+    }
+    #navbar{
+        padding: 1.8rem;
+
+    }
+   
+    #navbar ul li a{
+        padding-left: 0rem;
+        margin-left: -1.5rem;
+
+    }
+    #navbar h1 span{
+        margin-left: -4rem;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+        margin: 4rem;
+    }
+    #main-ilustration{
+        align-self: flex-end;
+        min-width: 85vw;
+    }
+}
