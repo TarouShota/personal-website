@@ -131,7 +131,8 @@ article p{
     #main-ilustration{
         align-self: flex-end;
         min-width: 85vw;
-        /*sdfjkldsjfklsdjfklsdjfkldsrowtf bor*/
+        align-content: flex-end;
+        /*sdfjkldsjfklsdjfklsdjfkldsrowtf borfdgklfdgjklfdjgkfsdgjkfdgjkllfdg*/
 
     }
 }
