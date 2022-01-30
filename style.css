@@ -131,6 +131,10 @@ article p{
     #main-ilustration{
         align-self: flex-end;
         min-width: 85vw;
+<<<<<<< Updated upstream
         /*sdfjkldsjfklsdjfklsdjfkldsrowtf bor*/
+=======
+        max-width: 10px;
+>>>>>>> Stashed changes
     }
 }
