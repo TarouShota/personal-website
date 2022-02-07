@@ -111,6 +111,9 @@ article p{
     }
     .image-view{
         max-width: 38rem;
+        opacity: 90%;
+        border-radius: 1rem;
+        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
 
     }
     #navbar{
@@ -143,6 +146,14 @@ article p{
         margin-bottom: 5rem;
         margin-top:2rem;
 
+    }
+    #lia-page{
+        opacity: 100%;
+        
+        
+    }
+    #lia-page-section{
+        
     }
     #main-ilustration-div{
         sdfdsfdsfdsf
