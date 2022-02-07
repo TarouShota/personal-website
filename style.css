@@ -38,10 +38,10 @@ header{
     display: flex;
     align-content: space-between;
     font-size:1.2rem;
+    margin-right: 1rem;
 }
 #navbar ul li a{
-    padding-left: 4rem;
-    padding-right: 3rem;   
+    padding-right: 5rem;
 }
 #logo-header{
     font-size: 1.2rem;
@@ -53,7 +53,7 @@ header{
 /* Main Section*/
 
 #aboutme{
-    color: #64DFDF;
+    color: #63FFFF;
     font-weight: bold;
 }
 article{
@@ -73,10 +73,10 @@ article{
 
 }
 .main-color{
-    color:#64dfdf;
+    color: #63FFFF;
 }
 #webdev{
-    color: #64DFDF;
+    color: #63FFFF;
 }
 article p{
     color:#F2F2F2;
@@ -85,7 +85,7 @@ article p{
 
 }  
 .contact{
-    margin-left: -6%;
+    margin-left: 0%;
 }
 .contact img{
     margin: 1.5rem;
@@ -101,14 +101,23 @@ article p{
 
 @media only screen and (max-width:620px) {
     body{
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background: linear-gradient(285.15deg, #64DFDF -16.45%, #5390D9 0.76%, #4EA8DE 19.22%, #5E60CE 41.99%, #6930C3 63.15%, #6528B8 80.74%, #580C92 98.09%);    }
     html{
         font-size: 2.5vmin;
+    }
+    .header-desc{
+        margin-bottom: 2rem;
+    }
+    .image-view{
+        max-width: 38rem;
+
     }
     #navbar{
         padding: 1.8rem;
 
     }
+
    
     #navbar ul li a{
         padding-left: 0rem;
@@ -129,9 +138,10 @@ article p{
     }
     #main-ilustration{
         align-self: flex-start;
-        max-width: 35rem;
+        max-width: 37rem;
         padding-right: 3rem;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
+        margin-top:2rem;
 
     }
     #main-ilustration-div{
