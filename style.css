@@ -38,11 +38,10 @@ header{
     display: flex;
     align-content: space-between;
     font-size:1.2rem;
-    margin-right: -2rem;
+    margin-right: 1rem;
 }
 #navbar ul li a{
-    padding-right: 3rem;
- 
+    padding-right: 5rem;
 }
 #logo-header{
     font-size: 1.2rem;
@@ -107,10 +106,18 @@ article p{
     html{
         font-size: 2.5vmin;
     }
+    .header-desc{
+        margin-bottom: 2rem;
+    }
+    .image-view{
+        max-width: 38rem;
+
+    }
     #navbar{
         padding: 1.8rem;
 
     }
+
    
     #navbar ul li a{
         padding-left: 0rem;
@@ -131,7 +138,7 @@ article p{
     }
     #main-ilustration{
         align-self: flex-start;
-        max-width: 42rem;
+        max-width: 37rem;
         padding-right: 3rem;
         margin-bottom: 5rem;
         margin-top:2rem;
