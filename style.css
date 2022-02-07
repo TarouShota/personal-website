@@ -16,9 +16,8 @@ li{
     list-style: none;
 }
 
-body{
+main{
     background: linear-gradient(286.13deg, #64DFDF 4.4%, #56CFE1 17.74%, #4EA8DE 27.75%, #5390D9 40.51%, #5E60CE 53.24%, #6930C3 66.13%, #6528B8 79.77%, #580C92 93.23%);
-    height: 100vh;
     max-height: 100%;
 
 }
@@ -73,6 +72,9 @@ article{
     font-weight: 600;
 
 }
+.main-color{
+    color:#64dfdf;
+}
 #webdev{
     color: #64DFDF;
 }
@@ -93,13 +95,8 @@ article p{
 .contact img:last-child{
     width: 2.7rem;
 }
-#main-ilustration{
-    max-width: 50vw; 
-    max-height: 60vh;
-    padding-left: 1.8rem;
-    align-self: center;
-    position: relative;
-    top:1rem;
+#main-ilustration-div{
+   
 }
 
 @media only screen and (max-width:620px) {
@@ -127,9 +124,17 @@ article p{
         text-align: center;
         justify-content: flex-start;
         margin: 4rem;
+        max-height: 70vh;
+        margin-bottom: 7rem;
     }
     #main-ilustration{
-        align-self: flex-end;
-        min-width: 85vw;
+        align-self: flex-start;
+        max-width: 35rem;
+        padding-right: 3rem;
+        margin-bottom: 10rem;
+
     }
-}
+    #main-ilustration-div{
+        
+    }
+}   
