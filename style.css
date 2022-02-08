@@ -157,10 +157,11 @@ article p{
     }
     #lia-page-section{
         background: url(/Svgs/plsno/discord-backgroubd.jpg);
-        border-radius: 1rem;
+        border-radius: 2rem;
         box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     }
     #main-ilustration-div{
+
         
     }
 }   
