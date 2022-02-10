@@ -111,7 +111,7 @@ article p{
     }
     .image-view{
         max-width: 38rem;
-        opacity: 90%;
+        opacity: 85%;
         border-radius: 1rem;
         box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
 
@@ -149,13 +149,18 @@ article p{
     }
     #lia-page{
         opacity: 100%;
-        
+        padding: 1rem;
+        margin-bottom: -1.8rem;
+        border-radius: 2rem;
+        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
         
     }
     #lia-page-section{
-        
+        background: url(/Svgs/plsno/discord-backgroubd.jpg);
+        border-radius: 2rem;
+        box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     }
     #main-ilustration-div{
-        sdfdsfdsfdsf
+
     }
 }   
