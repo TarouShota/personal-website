@@ -3,11 +3,6 @@ let sayHello = (name) => {
     let phrase = `Hello ${name}`;
     say(phrase);
 }
-<<<<<<< HEAD
-getElementbyId('div');
-
-//love today, it was nice, didn't get to study though, well.. We will be fixing that tomorrow mornign
-=======
 
 let say = (phrase) => {
     alert(`** ${phrase} **`);
@@ -59,4 +54,42 @@ console.log(userObj.sizes === cloneObj.sizes); // true, same object
 userObj.sizes.width = userObj.sizes.width + 100;       // change a property from one place
 console.log(cloneObj.sizes.width); // 51, see the result from the other one
 console.log(cloneObj[0]);
->>>>>>> stage
+let a = 0;
+let b = 0;
+let calculator = {
+    read() {
+        a = parseInt(window.prompt('A'));
+        b = parseInt(window.prompt('B'));
+    },
+    sum() {
+        this.read()
+        let c = a + b;
+        return c
+    },
+    mul() {
+        c = a * b;
+        return c
+    }
+};
+//console.log(calculator.sum());
+//console.log(calculator.mul());
+
+// Ladder Exercise !
+
+let ladder = {
+    step: 0,
+    up: function () {
+        this.step++;
+        return this
+    },
+    down() {
+        this.step--;
+        return this
+    },
+    showStep() { // shows the current step
+        alert(this.step);
+        return this
+    }
+};
+//ladder.showStep();
+ladder.up().up().showStep()
