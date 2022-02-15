@@ -17,7 +17,7 @@ li{
 }
 
 main{
-    background: linear-gradient(286.13deg, #64DFDF 4.4%, #56CFE1 17.74%, #4EA8DE 27.75%, #5390D9 40.51%, #5E60CE 53.24%, #6930C3 66.13%, #6528B8 79.77%, #580C92 93.23%);
+    background-color: rgba(0, 23, 31, 1);
     max-height: 100%;
 
 }
@@ -102,7 +102,8 @@ article p{
 @media only screen and (max-width:620px) {
     body{
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        background: linear-gradient(285.15deg, #64DFDF -16.45%, #5390D9 0.76%, #4EA8DE 19.22%, #5E60CE 41.99%, #6930C3 63.15%, #6528B8 80.74%, #580C92 98.09%);    }
+        background-color: rgba(0, 23, 31, 1);
+    }
     html{
         font-size: 2.5vmin;
     }
@@ -158,9 +159,14 @@ article p{
     #lia-page-section{
         background: url(/Svgs/plsno/discord-backgroubd.jpg);
         border-radius: 2rem;
-        box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     }
     #main-ilustration-div{
 
     }
-}   
+    #welcome-div{
+        background-color: rgba(0, 52, 89, 0.15);
+        border:1rem solid white;
+        border-radius: 1.8rem;
+
+    }
+}    

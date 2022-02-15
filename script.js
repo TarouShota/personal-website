@@ -1,4 +1,4 @@
-
+/*
 let sayHello = (name) => {
     let phrase = `Hello ${name}`;
     say(phrase);
@@ -93,3 +93,79 @@ let ladder = {
 };
 //ladder.showStep();
 ladder.up().up().showStep()
+
+//code wars challenge
+let sum = (array) => {
+    let result = 0;
+    for (let theSum of array) {
+        result = result + theSum;
+
+    }
+    return result;
+}
+
+function solution(number) {
+    let result = [];
+    for (i = 1; i < number; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            result.push(i);
+        }
+    } return sum(result)
+}
+
+console.log(solution(10));
+
+*/
+
+
+var countOperations = function (num1, num2) {
+
+    while (num1 <= 0 || num2 <= 0) {
+        if (num2 >= num1) {
+            num2 = num2 - num1;
+            counter++
+            countOperations(num1, num2);
+        }
+        if (num1 >= num2) {
+            num1 = num2 - num1;
+            counter++
+            countOperations(num1, num2);
+        }
+        return counter
+    }
+};
+
+
+var twoSum = function (nums, target) {
+    let fltArray = nums.filter(numbers => numbers < target);
+    let counter = [];
+    for (i = 0; i < fltArray.length; i++) {
+        fltArray.forEach((value) => {
+            if (value != fltArray[i]) {
+                if (value + fltArray[i] === target) {
+                    counter = value + fltArray[i];
+                    counter = ([nums.indexOf(value), (nums.indexOf(fltArray[i]))]);
+
+                }
+            }
+
+
+
+        });
+
+    }
+    if (counter.length < 1) {
+        let results = nums.indexOf(target / 2);
+        while (results != -1) {
+            counter.push(results);
+            results = nums.indexOf(target / 2, results + 1);
+
+        }
+
+    }
+    return counter
+
+
+};
+console.log(twoSum([4, 3, 1, 2], 6));
+console.log(twoSum([5, 1, 3, 4, 5, 8], 10)); 
