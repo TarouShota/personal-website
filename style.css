@@ -139,6 +139,8 @@ article p{
         margin: 4rem;
         max-height: 70vh;
         margin-bottom: 7rem;
+    
+        
     }
     #main-ilustration{
         align-self: flex-start;
@@ -166,7 +168,7 @@ article p{
     .content-section{
         margin-top: 2rem;
     }
-    section:first-child{
+        .content-section{
         background-color: rgba(0, 52, 89, 0.15);
         border: 0.5rem solid white;
         border-radius: 1.8rem;
