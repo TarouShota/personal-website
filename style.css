@@ -142,10 +142,10 @@ article p{
     }
     #main-ilustration{
         align-self: flex-start;
-        max-width: 37rem;
+        max-width: 39rem;
         padding-right: 3rem;
         margin-bottom: 5rem;
-        margin-top:2rem;
+        margin-top:4rem;
 
     }
     #lia-page{
@@ -162,11 +162,16 @@ article p{
     }
     #main-ilustration-div{
 
+    }   
+    .content-section{
+        margin-top: 2rem;
     }
-    #welcome-div{
+    section:first-child{
         background-color: rgba(0, 52, 89, 0.15);
-        border:1rem solid white;
+        border: 0.5rem solid white;
         border-radius: 1.8rem;
-
+        width: 85vw;
+        min-height: 30vh;
+          
     }
 }    
