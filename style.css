@@ -126,15 +126,19 @@ article p{
     #navbar ul li a{
         padding-left: 0rem;
         margin-left: 0.6rem;
-        padding-right: 2rem;
 
     }
     #navbar h1 span{
         margin-left: -4rem;
     }
-    nav ul li:first-of-type{
+    /*nav ul li:first-of-type{
         background-color: black;
-        margin-left: 3rem;
+        margin-left: -8rem;
+    }*/
+    ul li{
+        background-color: black;
+        padding-left:2rem;
+        max-width: 20vw;
     }
     article{
         display: flex;
