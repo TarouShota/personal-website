@@ -177,7 +177,9 @@ article p{
         padding-top: 3rem;
         padding-left: 1rem;
         padding-right:1rem;
-        
-        
+
     }
 }    
+#main-ilustration-div{
+    background-color: black;
+}
