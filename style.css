@@ -125,11 +125,16 @@ article p{
    
     #navbar ul li a{
         padding-left: 0rem;
-        margin-left: -1.5rem;
+        margin-left: 0.6rem;
+        padding-right: 2rem;
 
     }
     #navbar h1 span{
         margin-left: -4rem;
+    }
+    nav ul li:first-of-type{
+        background-color: black;
+        margin-left: 3rem;
     }
     article{
         display: flex;
@@ -181,5 +186,5 @@ article p{
     }
 }    
 #main-ilustration-div{
-    background-color: black;
+    
 }
