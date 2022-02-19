@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    color: #F2F2F2;
-    font-weight: 400;
+    color: #DAE0DD;
+    font-weight: 200;
 }
 html{
     font-size: 1.8vmin;
@@ -31,6 +31,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 3rem;
+    width: 85vw;
+    margin-left:2%;
 
 }
 
@@ -38,7 +40,7 @@ header{
     display: flex;
     align-content: space-between;
     font-size:1.2rem;
-    margin-right: 1rem;
+    margin-left: 1rem;
 }
 #navbar ul li a{
     padding-right: 5rem;
@@ -52,10 +54,7 @@ header{
 
 /* Main Section*/
 
-#aboutme{
-    color: #63FFFF;
-    font-weight: bold;
-}
+
 article{
     display:flex;
     align-items: center;
@@ -68,18 +67,19 @@ article{
     
 }
 .header-text{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 600;
 
+}
+#webdev{
+    font-size:2.3rem
 }
 .main-color{
     color: #63FFFF;
 }
-#webdev{
-    color: #63FFFF;
-}
+
 article p{
-    color:#F2F2F2;
+    color:#DAE0DD;
     font-size: 1.8rem;
     font-weight: lighter;
 
@@ -117,6 +117,7 @@ article p{
     }
     #navbar{
         padding: 1.8rem;
+        margin-bottom: -3rem;
     }
 
    
@@ -128,6 +129,7 @@ article p{
     #navbar h1 span{
         margin-left: -4rem;
     }
+   
     /*nav ul li:first-of-type{
         background-color: black;
         margin-left: -8rem;
@@ -143,8 +145,8 @@ article p{
         text-align: center;
         justify-content: flex-start;
         margin: 4rem;
-        max-height: 70vh;
-        margin-bottom: 7rem;
+        min-height: 80vh;
+        margin-bottom: 5rem;
 
     
         
@@ -162,11 +164,10 @@ article p{
         padding: 1rem;
         margin-bottom: -1.8rem;
         border-radius: 2rem;
-        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+      
         
     }
     #lia-page-section{
-        background: url(/Svgs/plsno/discord-backgroubd.jpg);
         border-radius: 2rem;
     }
    
@@ -175,13 +176,11 @@ article p{
     }
         .content-section{
         background-color: rgba(0, 52, 89, 0.15);
-        border: 0.5rem solid white;
+        border:#DAE0DD 0.5rem solid;
         border-radius: 1.8rem;
         width: 85vw;
         min-height: 30vh;
-        padding-top: 3rem;
-        padding-left: 1rem;
-        padding-right:1rem;
+        padding:3rem 0rem 0rem;
 
     }
 }    
