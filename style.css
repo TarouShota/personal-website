@@ -80,7 +80,7 @@ article{
 }
 article p{
     color:#F2F2F2;
-    font-size:2rem;
+    font-size: 1.8rem;
     font-weight: lighter;
 
 }  
@@ -95,9 +95,7 @@ article p{
 .contact img:last-child{
     width: 2.7rem;
 }
-#main-ilustration-div{
-   
-}
+
 
 @media only screen and (max-width:620px) {
     body{
@@ -119,7 +117,6 @@ article p{
     }
     #navbar{
         padding: 1.8rem;
-
     }
 
    
@@ -148,6 +145,7 @@ article p{
         margin: 4rem;
         max-height: 70vh;
         margin-bottom: 7rem;
+
     
         
     }
@@ -171,9 +169,7 @@ article p{
         background: url(/Svgs/plsno/discord-backgroubd.jpg);
         border-radius: 2rem;
     }
-    #main-ilustration-div{
-
-    }   
+   
     .content-section{
         margin-top: 2rem;
     }
