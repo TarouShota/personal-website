@@ -59,9 +59,8 @@ article{
     display:flex;
     align-items: center;
     justify-content: center;
-    line-height:4rem;
+    line-height:3.8rem;
     letter-spacing: 0;
-    height: 85vh;
     margin-top: -1%;
     padding:1rem;
     
@@ -109,11 +108,11 @@ article p{
         margin-bottom: 2rem;
     }
     .image-view{
-        max-width: 38rem;
+        width: 85vw;
         opacity: 85%;
         border-radius: 1rem;
-        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
-
+        margin-top:2rem;
+        border:#DAE0DD solid 0.3rem;
     }
     #navbar{
         padding: 1.8rem;
@@ -145,23 +144,17 @@ article p{
         text-align: center;
         justify-content: flex-start;
         margin: 4rem;
-        min-height: 80vh;
-        margin-bottom: 5rem;
-
-    
-        
+        margin-bottom: 1rem;
     }
     #main-ilustration{
         align-self: flex-start;
         max-width: 39rem;
         padding-right: 3rem;
-        margin-bottom: 5rem;
-        margin-top:4rem;
+       
+        margin-top:3rem;
 
     }
     #lia-page{
-        opacity: 100%;
-        padding: 1rem;
         margin-bottom: -1.8rem;
         border-radius: 2rem;
       
@@ -169,6 +162,9 @@ article p{
     }
     #lia-page-section{
         border-radius: 2rem;
+    }
+    #welcome-div{
+        padding-bottom: 0rem;
     }
    
     .content-section{
@@ -179,8 +175,12 @@ article p{
         border:#DAE0DD 0.5rem solid;
         border-radius: 1.8rem;
         width: 85vw;
-        min-height: 30vh;
-        padding:3rem 0rem 0rem;
-
+        min-height: 23vh;
+        padding:3rem 1rem 3rem;
+        
+    }
+    section > p{
+        line-height: 3rem;
+        padding-top:0.8rem;
     }
 }    
