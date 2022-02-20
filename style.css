@@ -118,7 +118,10 @@ article p{
         min-height: 30vh;
         background-repeat: no-repeat;
         background:url(/Svgs/without\ button.svg);
-      
+      sa
+    }
+    #mobile-dark-style{
+        max-width: 25vw;
     }
     #navbar{
         padding: 1.8rem;
