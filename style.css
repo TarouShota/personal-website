@@ -109,10 +109,16 @@ article p{
     }
     .image-view{
         width: 85vw;
-        opacity: 85%;
+        opacity: 100%;
         border-radius: 1rem;
         margin-top:2rem;
         border:#DAE0DD solid 0.3rem;
+    }
+    #discord-logo{
+        min-height: 30vh;
+        background-repeat: no-repeat;
+        background:url(/Svgs/without\ button.svg);
+      
     }
     #navbar{
         padding: 1.8rem;
