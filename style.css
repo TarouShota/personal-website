@@ -165,14 +165,13 @@ article p{
         flex-direction: column;
         text-align: center;
         justify-content: flex-start;
-        margin: 4rem;
+        margin-top: 10rem;
         margin-bottom: 1rem;
     }
     #main-ilustration{
         align-self: flex-start;
         max-width: 39rem;
         padding-right: 3rem;
-       
         margin-top:3rem;
 
     }
@@ -197,9 +196,8 @@ article p{
         border:#DAE0DD 0.4rem solid;
         border-radius: 1.8rem;
         width: 85vw;
-      
         padding:3rem 1rem 3rem;
-        
+        align-self: center;
     }
     section > p{
         line-height: 3rem;
@@ -246,4 +244,25 @@ article p{
 }
 article:last-child{
     border: none;
+}
+
+#footer-section{
+    display: flex;
+    margin-top: 0;
+}
+#footer{
+    padding: 0;
+    background: #001C27;
+}
+#footer-text{
+    font-size:1rem;
+    line-height: 2rem;
+    text-align: start;
+    margin-left: 2rem;
+}
+
+#email-button{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
 }
