@@ -265,4 +265,6 @@ article:last-child{
     display:flex;
     justify-content:flex-end;
     align-items:center;
+    background: #091D30;
+    font-size:0.8rem;
 }
