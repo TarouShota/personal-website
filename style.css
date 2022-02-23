@@ -156,7 +156,7 @@ article p{
         margin-left: -8rem;
     }*/
     ul li{
-        background-color: black;
+       
         padding-left:2rem;
         max-width: 20vw;
     }
@@ -284,4 +284,13 @@ section>div:nth-child(2){
     padding: 0rem;
     margin-left: 2rem
 
+}
+nav:last-child{
+    background: none;
+}
+ul:last-child{
+    display: flex;
+}
+nav:last-child{
+    margin-top:2rem;
 }
