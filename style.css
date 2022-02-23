@@ -133,7 +133,7 @@ article p{
         margin-left: 2rem;
         height: 100%;
         align-self: center;
-        
+ 
     }
     }
     #navbar{
@@ -165,8 +165,8 @@ article p{
         flex-direction: column;
         text-align: center;
         justify-content: flex-start;
-        margin-top: 10rem;
-        margin-bottom: 1rem;
+        margin-top: 8rem;
+        margin-bottom: 9rem;
     }
     #main-ilustration{
         align-self: flex-start;
@@ -188,9 +188,7 @@ article p{
         padding-bottom: 0rem;
     }
    
-    .content-section{
-        margin-top: 2rem;
-    }
+   
         .content-section{
         background-color: rgba(0, 52, 89, 0.15);
         border:#DAE0DD 0.4rem solid;
@@ -207,7 +205,6 @@ article p{
         max-width: 83vw;
         display: flex;
         margin: 5rem;
-     
     }
     .mobile-view{
         border:#DAE0DD 0.3rem solid;
@@ -242,7 +239,7 @@ article p{
     width: 85vw;
     margin-top: 1.5rem;
 }
-article:last-child{
+article:last-of-type{
     border: none;
 }
 
@@ -254,6 +251,7 @@ article:last-child{
 #footer{
     padding: 0;
     background: #001C27;
+    margin-bottom: 0;
 }
 #footer-text{
     font-size: 1rem;
