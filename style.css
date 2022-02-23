@@ -259,25 +259,29 @@ article:last-child{
     font-size: 1rem;
     line-height: 2rem;
     text-align: start;
-    margin-left: 2rem;
 }
 
 #email-button{
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background: #091D30;
-    font-size:0.8rem;
+    font-size: 0.8rem;
     margin-top: 0.8rem;
+    width: fit-content;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    margin-left: -0.5rem;
 }
-
-footer>h2{
+div>h2{
     padding-left: 1.2rem;
     padding-right: 1rem;
 }
-footer>img{
+#last-ilustration{
     width: 31vw;
 }
 section>div:nth-child(2){
-    padding: 1rem;
+    padding: 0rem;
+    margin-left: 2rem
+
 }
