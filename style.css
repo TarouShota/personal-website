@@ -170,7 +170,7 @@ article p{
     }
     #main-ilustration{
         align-self: flex-start;
-        max-width: 39rem;
+        width: 33rem;
         padding-right: 3rem;
         margin-top:3rem;
 
@@ -249,13 +249,14 @@ article:last-child{
 #footer-section{
     display: flex;
     margin-top: 0;
+
 }
 #footer{
     padding: 0;
     background: #001C27;
 }
 #footer-text{
-    font-size:1rem;
+    font-size: 1rem;
     line-height: 2rem;
     text-align: start;
     margin-left: 2rem;
@@ -267,4 +268,16 @@ article:last-child{
     align-items:center;
     background: #091D30;
     font-size:0.8rem;
+    margin-top: 0.8rem;
+}
+
+footer>h2{
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+}
+footer>img{
+    width: 31vw;
+}
+section>div:nth-child(2){
+    padding: 1rem;
 }
