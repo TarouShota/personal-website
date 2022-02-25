@@ -118,7 +118,7 @@ console.log(solution(10));
 */
 
 
-var countOperations = function (num1, num2) {
+/*var countOperations = function (num1, num2) {
 
     while (num1 <= 0 || num2 <= 0) {
         if (num2 >= num1) {
@@ -168,4 +168,9 @@ var twoSum = function (nums, target) {
 
 };
 console.log(twoSum([4, 3, 1, 2], 6));
-console.log(twoSum([5, 1, 3, 4, 5, 8], 10)); 
+console.log(twoSum([5, 1, 3, 4, 5, 8], 10));
+*/
+
+
+///
+
