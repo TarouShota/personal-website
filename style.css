@@ -30,6 +30,7 @@ header{
 #navbar{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 1rem
 
 
 }
@@ -37,6 +38,7 @@ header{
 #navbar ul{
     display: flex;
     margin-left: 2rem;
+    margin-right: -2rem;
 }
 
 #logo-header{
@@ -268,7 +270,9 @@ nav:last-child{
 }
 ul:last-child{
     display: flex;
+    
 }
 nav:last-child{
     margin-top:2rem;
+    margin-right: 3.2rem;
 }
