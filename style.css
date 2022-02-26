@@ -123,8 +123,8 @@ article p{
         width: 85vw;
         opacity: 100%;
         border-radius: 1rem;
-        margin-top:2rem;
-        border:#DAE0DD solid 0.3rem;
+        margin-top:6rem;
+        /*border:#DAE0DD solid 0.3rem;*/
     }
     #discord-logo{
         background-repeat: no-repeat;
@@ -202,7 +202,7 @@ article p{
         margin: 5rem;
     }
     .mobile-view{
-        border:#DAE0DD 0.3rem solid;
+       /* border:#DAE0DD 0.3rem solid;*/
         border-radius: 1rem;
     }
 #blog-header{
@@ -242,7 +242,9 @@ article:last-of-type{
 #footer-section{
     display: flex;
     margin-top: 0;
-
+    border:none;
+    border-top: #DAE0DD 0.4rem solid;
+    border-radius: 0.8rem;
 }
 #footer{
     padding: 0;
@@ -260,19 +262,20 @@ article:last-of-type{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: #091D30;
+    background: #000D12;
     font-size: 0.8rem;
     margin-top: 0.8rem;
     width: fit-content;
     border-radius: 1rem;
     padding-left: 1rem;
     margin-left: -0.5rem;
-    box-shadow: 0px 0px 0px 0.4rem #dae0dd inset;
+    border: 0.2rem solid white;
+    height: 31%;
 }
 div>h2{
     padding-left: 1.2rem;
     padding-right: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.09rem;
 }
 #last-ilustration{
     width: 31vw;
@@ -290,6 +293,6 @@ ul:last-child{
     
 }
 nav:last-child{
-    margin-top:2rem;
+    margin-top:4rem;
     margin-right: 3.2rem;
 }
