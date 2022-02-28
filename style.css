@@ -7,7 +7,7 @@
     font-weight: 200;
 }
 html{
-    font-size: 1.8vmin;
+    font-size: 2.5vmin;
 }
 a {
     text-decoration: none;
@@ -82,11 +82,12 @@ article p{
 }
 .contact img{
     margin: 1.5rem;
-    width: 2.2rem;
+    margin-top: 2.5rem;
+    
 
 }
 .contact img:last-child{
-    width: 2.7rem;
+   /* width: 2.7rem;*/
 }
 .card-section{
     background-color: #091D30;
@@ -94,9 +95,9 @@ article p{
     width: 40%;
 }
 
-@media only screen and (max-width:620px) {
+/*@media only screen and (max-width:620px) {  */
     body{
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
         background-color: rgba(0, 23, 31, 1);
     }
     html{
@@ -109,8 +110,8 @@ article p{
         width: 85vw;
         opacity: 100%;
         border-radius: 1rem;
-        margin-top:2rem;
-        border:#DAE0DD solid 0.3rem;
+        margin-top:6rem;
+        /*border:#DAE0DD solid 0.3rem;*/
     }
     #discord-logo{
         background-repeat: no-repeat;
@@ -129,7 +130,7 @@ article p{
         align-self: center;
  
     }
-    }
+
     
    
     /*nav ul li:first-of-type{
@@ -153,7 +154,7 @@ article p{
         align-self: flex-start;
         width: 33rem;
         padding-right: 3rem;
-        margin-top:3rem;
+        margin-top:5rem;
 
     }
     #lia-page{
@@ -172,7 +173,7 @@ article p{
    
         .content-section{
         background-color: rgba(0, 52, 89, 0.15);
-        border:#DAE0DD 0.4rem solid;
+        border:#DAE0DD 0.3rem solid;
         border-radius: 1.8rem;
         width: 85vw;
         padding:3rem 1rem 3rem;
@@ -188,7 +189,7 @@ article p{
         margin: 5rem;
     }
     .mobile-view{
-        border:#DAE0DD 0.3rem solid;
+       /* border:#DAE0DD 0.3rem solid;*/
         border-radius: 1rem;
     }
 #blog-header{
@@ -227,7 +228,9 @@ article:last-of-type{
 #footer-section{
     display: flex;
     margin-top: 0;
-
+    border:none;
+    border: #DAE0DD 0.2rem solid;
+    border-radius: 1.8rem;
 }
 #footer{
     padding: 0;
@@ -244,21 +247,27 @@ article:last-of-type{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: #091D30;
+    background: #000D12;
     font-size: 0.8rem;
     margin-top: 0.8rem;
     width: fit-content;
     border-radius: 1rem;
     padding-left: 1rem;
     margin-left: -0.5rem;
+<<<<<<< HEAD
+=======
+    border: 0.2rem solid white;
+    height: 31%;
+>>>>>>> list
 }
 div>h2{
     padding-left: 1.2rem;
     padding-right: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.09rem;
 }
 #last-ilustration{
     width: 31vw;
+    opacity: 90%;
 }
 section>div:nth-child(2){
     padding: 0rem;
@@ -273,6 +282,11 @@ ul:last-child{
     
 }
 nav:last-child{
-    margin-top:2rem;
+    margin-top:4rem;
     margin-right: 3.2rem;
 }
+li a{
+    color:#C4C8CC;
+}
+
+/* <h3 class='secondary-color'>Read More..</h3>*/
