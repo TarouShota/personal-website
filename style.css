@@ -7,7 +7,7 @@
     font-weight: 200;
 }
 html{
-    font-size: 2.5vmin;
+    font-size: 1.8vmin;
 }
 a {
     text-decoration: none;
@@ -109,7 +109,7 @@ article p{
     width: 40%;
 }
 
-/*@media only screen and (max-width:620px) {  */
+@media only screen and (max-width:620px) {
     body{
         
         background-color: rgba(0, 23, 31, 1);
@@ -144,7 +144,7 @@ article p{
         align-self: center;
  
     }
-
+    }
     
    
     /*nav ul li:first-of-type{
@@ -302,4 +302,40 @@ li a{
     color:#C4C8CC;
 }
 
+@media only screen and (min-width:620px){
+    body{
+        
+        background-color: rgba(0, 23, 31, 1);
+    }
+    html{
+        font-size: 2.5vmin;
+    }
+    .header-desc{
+        margin-bottom: 2rem;
+    }
+    .image-view{
+        width: 85vw;
+        opacity: 100%;
+        border-radius: 1rem;
+        margin-top:6rem;
+        /*border:#DAE0DD solid 0.3rem;*/
+    }
+    #discord-logo{
+        background-repeat: no-repeat;
+        background-image: url(/Svgs/without\ button.svg);
+        background-size: cover;
+        line-height: 0;
+    }
+    #mobile-dark-style{
+        max-width: 28vw;
+        
+    }
+    #mobile-dark-style-reversed{
+        max-width: 50vw;
+        margin-left: 2rem;
+        height: 100%;
+        align-self: center;
+ 
+    }
+}
 /* <h3 class='secondary-color'>Read More..</h3>*/
