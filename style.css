@@ -96,11 +96,12 @@ article p{
 }
 .contact img{
     margin: 1.5rem;
-    width: 2.2rem;
+    margin-top: 2.5rem;
+    
 
 }
 .contact img:last-child{
-    width: 2.7rem;
+   /* width: 2.7rem;*/
 }
 .card-section{
     background-color: #091D30;
@@ -296,4 +297,7 @@ ul:last-child{
 nav:last-child{
     margin-top:4rem;
     margin-right: 3.2rem;
+}
+li a{
+    color:#C4C8CC;
 }
