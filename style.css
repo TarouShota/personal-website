@@ -152,7 +152,7 @@ article p{
     }*/
     ul li{
        
-        padding: 0 1rem;
+        padding-left:3rem;
      
     }
     article{
@@ -184,12 +184,12 @@ article p{
     }
    
    
-    .content-section {
+        .content-section{
         background-color: rgba(0, 52, 89, 0.15);
-        border: #DAE0DD 0.3rem solid;
+        border:#DAE0DD 0.3rem solid;
         border-radius: 1.8rem;
         width: 85vw;
-        padding: 3rem 1rem 3rem;
+        padding:3rem 1rem 3rem;
         align-self: center;
     }
     section > p{
@@ -211,7 +211,6 @@ article p{
     align-items: center;
     margin-bottom: 1rem;
     color: #52D2D6;
-    opacity: 90%;
 }
 .card-section>p{
     font-size: 1rem;
@@ -229,12 +228,7 @@ article p{
     margin-top: 1rem;
     margin-bottom: 2rem;
     line-height: 1rem;
-    opacity: 90%;
 }
-.last-navbar{
-    padding: 0 1rem;
-}
-
 .two-cards-section{
     display: flex;
     justify-content: space-evenly;
@@ -244,17 +238,14 @@ article p{
 article:last-of-type{
     border: none;
 }
-#footer-section {
+
+#footer-section{
     display: flex;
     margin-top: 0;
-    border: none;
-    /* border-top: #DAE0DD 0.2rem solid; */
-    /* border-radius: 1.8rem; */
-    width: 100%;
-    padding-bottom: 1rem;
+    border:none;
+    border: #DAE0DD 0.2rem solid;
+    border-radius: 1.8rem;
 }
-
-
 #footer{
     padding: 0;
     background: #001C27;
@@ -265,8 +256,6 @@ article:last-of-type{
     line-height: 2rem;
     text-align: start;
     padding-bottom: 0.5rem;
-    width: 80%;
-
 }
 
 #email-button{
@@ -275,13 +264,13 @@ article:last-of-type{
     align-items: center;
     background: #000D12;
     font-size: 0.8rem;
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
     width: fit-content;
     border-radius: 1rem;
     padding-left: 1rem;
     margin-left: -0.5rem;
-    /* border: 0.2rem solid white; */
-    /* height: 31%;*/
+    border: 0.2rem solid white;
+    height: 31%;
 }
 div>h2{
     padding-left: 1.2rem;
@@ -294,7 +283,7 @@ div>h2{
 }
 section>div:nth-child(2){
     padding: 0rem;
-    margin-left: 3rem
+    margin-left: 2rem
 
 }
 nav:last-child{
@@ -302,14 +291,9 @@ nav:last-child{
 }
 ul:last-child{
     display: flex;
-    margin-left: -5.2rem;
     
 }
 nav:last-child{
-    margin-top:3rem;
+    margin-top:4rem;
     margin-right: 3.2rem;
-}
-#footer-section div:nth-child(1){
-    margin-left: 1.5rem;
-    
 }
