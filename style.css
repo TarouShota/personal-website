@@ -167,7 +167,7 @@ article p{
         align-self: flex-start;
         width: 33rem;
         padding-right: 3rem;
-        margin-top:3rem;
+        margin-top:5rem;
 
     }
     #lia-page{
@@ -186,7 +186,7 @@ article p{
    
         .content-section{
         background-color: rgba(0, 52, 89, 0.15);
-        border:#DAE0DD 0.4rem solid;
+        border:#DAE0DD 0.3rem solid;
         border-radius: 1.8rem;
         width: 85vw;
         padding:3rem 1rem 3rem;
@@ -243,8 +243,8 @@ article:last-of-type{
     display: flex;
     margin-top: 0;
     border:none;
-    border-top: #DAE0DD 0.4rem solid;
-    border-radius: 0.8rem;
+    border: #DAE0DD 0.2rem solid;
+    border-radius: 1.8rem;
 }
 #footer{
     padding: 0;
@@ -279,6 +279,7 @@ div>h2{
 }
 #last-ilustration{
     width: 31vw;
+    opacity: 90%;
 }
 section>div:nth-child(2){
     padding: 0rem;
