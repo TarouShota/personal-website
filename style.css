@@ -103,9 +103,7 @@ article p{
     
 
 }
-.contact img:last-child{
-   /* width: 2.7rem;*/
-}
+
 .card-section{
     background-color: #091D30;
     flex-direction: row;
@@ -324,6 +322,9 @@ li a{
         margin-top:6rem;
         /*border:#DAE0DD solid 0.3rem;*/
     }
+    .content-section{
+        width: 85vw
+    }
     .contact img{
         width: 2.7rem;
     }
@@ -352,4 +353,19 @@ li a{
     #email-button{
         height: 3.8rem;
 }}
+
+@media only screen and (min-width:1200px){
+    .content-section{
+        width: 33rem;
+        
+}
+#last-ilustration{
+    width: 12rem;
+}
+.two-cards-section{
+    justify-content: space-evenly;
+    width: 35rem;
+}
+
+}
 /* <h3 class='secondary-color'>Read More..</h3>*/
