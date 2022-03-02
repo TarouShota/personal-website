@@ -275,7 +275,7 @@ article:last-of-type{
     padding-left: 1rem;
     margin-left: -0.5rem;
     border: 0.2rem solid white;
-    height: 31%;
+    /*height: 31%;*/
 }
 div>h2{
     padding-left: 1.2rem;
@@ -350,6 +350,6 @@ li a{
 }
 @media only screen and (min-width:1820px){
     #email-button{
-        height: 7vw;
+        height: 3.8rem;
 }}
 /* <h3 class='secondary-color'>Read More..</h3>*/
