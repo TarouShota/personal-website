@@ -278,6 +278,7 @@ article:last-of-type{
     padding-left: 1rem;
     margin-left: -0.5rem;
     border: 0.2rem solid white;
+    line-height: 1.5rem;
     /*height: 31%;*/
 }
 div>h2{
