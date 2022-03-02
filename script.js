@@ -174,3 +174,4 @@ console.log(twoSum([5, 1, 3, 4, 5, 8], 10));
 
 ///
 
+prompt();
