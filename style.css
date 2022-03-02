@@ -234,9 +234,13 @@ article p{
 }
 .two-cards-section{
     display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin-top: 1.5rem;
+    /*display: flex;
     justify-content: space-evenly;
     width: 85vw;
-    margin-top: 1.5rem;
+    margin-top: 1.5rem;*/
 }
 article:last-of-type{
     border: none;
