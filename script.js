@@ -1,8 +1,7 @@
 import Scrollbar from 'smooth-scrollbar';
 
 var options = {
-    'damping': 0.01,
-    'alwaysShowTracks': true
+    'damping': 0.005
 }
 Scrollbar.init(document.querySelector("#my-scrollbar"), options);
 
