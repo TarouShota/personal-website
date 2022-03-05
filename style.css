@@ -10,8 +10,11 @@ html{
     font-size: 1.8vmin;
 }
 
-
-
+#my-scrollbar{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
 a {
     text-decoration: none;
 }
@@ -46,12 +49,6 @@ header{
 
 #logo-header{
     font-size: 1.2rem;
-    @font-face {
-        font-family: '';
-        src: url('fonts/EntezareZohoor2.eot'), url('fonts/EntezareZohoor2.ttf') format('truetype'), url('fonts/EntezareZohoor2.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
 }
 
 
@@ -130,9 +127,9 @@ article p{
         /*border:#DAE0DD solid 0.3rem;*/
     }
     #discord-logo{
-        background-repeat: no-repeat;
+       /* background-repeat: no-repeat;
         background-image: url(/Svgs/without\ button.svg);
-        background-size: cover;
+        background-size: cover;*/
         line-height: 0;
     }
     #mobile-dark-style{
@@ -338,9 +335,9 @@ li a{
         width: 3rem;
     }
     #discord-logo{
-        background-repeat: no-repeat;
+        /*background-repeat: no-repeat;
         background-image: url(/Svgs/without\ button.svg);
-        background-size: cover;
+        background-size: cover;*/
         line-height: 0;
     }
     #mobile-dark-style{
