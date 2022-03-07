@@ -23,7 +23,7 @@ li{
 }
 
 main{
-    background-color: rgba(0, 23, 31, 1);
+    background-color: #0A0D0E;
     max-height: 100%;
 
 }
@@ -110,7 +110,7 @@ article p{
 @media only screen and (max-width:620px) {
     body{
         
-        background-color: rgba(0, 23, 31, 1);
+        background-color: #0A0D0E
         
     }
     html{
@@ -310,7 +310,7 @@ li a{
 @media only screen and (min-width:620px){
     body{
         
-        background-color: rgba(0, 23, 31, 1);
+        background-color: #0A0D0E;
     }
     html{
         font-size: 2.5vmin;
@@ -341,7 +341,7 @@ li a{
         line-height: 0;
     }
     #mobile-dark-style{
-        max-width: 20vw;
+        max-width: 14rem;
         
     }
     #mobile-dark-style-reversed{
@@ -349,6 +349,7 @@ li a{
         margin-left: 2rem;
         height: 80%;
         align-self: center;
+        max-width: 27rem;
  
     }
 }
