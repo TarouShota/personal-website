@@ -7,11 +7,12 @@
     "webpack-cli": "^4.9.2"
   },
   "name": "portfoliowebsite",
-  "description": "<div align=\"center\">\r       <h1> <img src=\"https://github.githubassets.com/images/modules/logos_page/Octocat.png\" width=\"80px\"><br/>Personal Website</h1>\r      </div>\r <p align=\"center\"> <a href=\"https://www.linkedin.com/in/adylove/}\" target=\"_blank\"><img alt=\"\" src=\"https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white\" style=\"vertical-align:center\" /></a> </p>",
+  "description": "adylove's portfolio website",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
