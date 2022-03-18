@@ -1,11 +1,48 @@
-import Scrollbar from 'smooth-scrollbar';
 
-var options = {
-    'damping': 0.1
+let firstBlock = document.querySelectorAll('#welcome-div');
+console.log(firstBlock);
+
+const visibility = document.visibilityState
+console.log(visibility);
+
+
+let callback = (entries, observer) => {
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+            target.setAttribute(
+                'style', 'opacity:100%'
+            )
+            return console.log('I can see you')
+
+        }
+        if (!entry.isIntersecting) {
+            target.setAttribute(
+                'style', 'opacity:0'
+            )
+        }
+
+    })
 }
-Scrollbar.init(document.querySelector("#my-scrollbar"), options);
 
-console.log(Scrollbar);
+
+let options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.8
+}
+
+let observer = new IntersectionObserver(callback, options);
+
+let target = document.querySelector('#welcome-div');
+
+
+observer.observe(target)
+//setTimeout(observer.observe(target), 2000)
+
+
+
+
 
 
 
@@ -13,6 +50,19 @@ console.log(Scrollbar);
 
 
 /*
+
+
+mainSection.forEach((button) => {
+
+    // and for each one we add a 'click' listener
+    button.addEventListener('click', () => {
+        game.gameStart(button.id);
+    });
+});
+
+
+
+
 let sayHello = (name) => {
     let phrase = `Hello ${name}`;
     say(phrase);

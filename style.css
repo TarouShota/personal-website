@@ -179,9 +179,18 @@ article p{
     #lia-page-section{
         border-radius: 2rem;
     }
-    #welcome-div{
-        padding-bottom: 0rem;
+    main > article section{
+        
     }
+    #welcome-div{
+    opacity: 0;
+        padding-bottom: 0rem;
+        /* transition: 1000ms cubic-bezier(1, -0.27, 0.25, 1.12) 0s; */
+        
+    }
+
+
+   
    
    
         .content-section{
