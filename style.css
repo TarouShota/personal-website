@@ -7,13 +7,7 @@
     font-weight: 200;
 }
 html{
-    font-size: 1.8vmin;
-}
-
-#my-scrollbar{
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+    font-size: 2.5vmin;
 }
 a {
     text-decoration: none;
@@ -23,7 +17,7 @@ li{
 }
 
 main{
-    background-color: #0A0D0E;
+    background-color: rgba(0, 23, 31, 1);
     max-height: 100%;
 
 }
@@ -92,18 +86,19 @@ article p{
     
 
 }
-
+.contact img:last-child{
+   /* width: 2.7rem;*/
+}
 .card-section{
     background-color: #091D30;
     flex-direction: row;
     width: 40%;
 }
 
-@media only screen and (max-width:620px) {
+/*@media only screen and (max-width:620px) {  */
     body{
         
-        background-color: #0A0D0E
-        
+        background-color: rgba(0, 23, 31, 1);
     }
     html{
         font-size: 2.5vmin;
@@ -119,9 +114,9 @@ article p{
         /*border:#DAE0DD solid 0.3rem;*/
     }
     #discord-logo{
-       /* background-repeat: no-repeat;
+        background-repeat: no-repeat;
         background-image: url(/Svgs/without\ button.svg);
-        background-size: cover;*/
+        background-size: cover;
         line-height: 0;
     }
     #mobile-dark-style{
@@ -135,7 +130,7 @@ article p{
         align-self: center;
  
     }
-    }
+
     
    
     /*nav ul li:first-of-type{
@@ -171,17 +166,9 @@ article p{
     #lia-page-section{
         border-radius: 2rem;
     }
-    main > article section{
-        
-    }
     #welcome-div{
         padding-bottom: 0rem;
-        /* transition: 1000ms cubic-bezier(1, -0.27, 0.25, 1.12) 0s; */
-        
     }
-
-
-   
    
    
         .content-section{
@@ -189,7 +176,7 @@ article p{
         border:#DAE0DD 0.3rem solid;
         border-radius: 1.8rem;
         width: 85vw;
-        padding: 3rem 2rem 3rem;
+        padding:3rem 1rem 3rem;
         align-self: center;
     }
     section > p{
@@ -231,13 +218,8 @@ article p{
 .two-cards-section{
     display: flex;
     justify-content: space-evenly;
-    width: 33rem;
-    margin-top: 1.5rem;
-
-    /*display: flex;
-    justify-content: space-evenly;
     width: 85vw;
-    margin-top: 1.5rem;*/
+    margin-top: 1.5rem;
 }
 article:last-of-type{
     border: none;
@@ -272,16 +254,8 @@ article:last-of-type{
     border-radius: 1rem;
     padding-left: 1rem;
     margin-left: -0.5rem;
-<<<<<<< HEAD
-=======
     border: 0.2rem solid white;
-<<<<<<< HEAD
     height: 31%;
->>>>>>> list
-=======
-    line-height: 1.5rem;
-    /*height: 31%;*/
->>>>>>> list
 }
 div>h2{
     padding-left: 1.2rem;
@@ -312,69 +286,4 @@ li a{
     color:#C4C8CC;
 }
 
-@media only screen and (min-width:620px){
-    body{
-        
-        background-color: #0A0D0E;
-    }
-    html{
-        font-size: 2.5vmin;
-    }
-    .header-desc{
-        margin-bottom: 2rem;
-    }
-    .image-view{
-        width: 35rem;
-        opacity: 100%;
-        border-radius: 1rem;
-        margin-top:6rem;
-        /*border:#DAE0DD solid 0.3rem;*/
-    }
-    .content-section{
-        width: 85vw
-    }
-    .contact img{
-        width: 2.7rem;
-    }
-    section a:last-child img{
-        width: 3rem;
-    }
-    #discord-logo{
-        /*background-repeat: no-repeat;
-        background-image: url(/Svgs/without\ button.svg);
-        background-size: cover;*/
-        line-height: 0;
-    }
-    #mobile-dark-style{
-        max-width: 14rem;
-        
-    }
-    #mobile-dark-style-reversed{
-        max-width: 50vw;
-        margin-left: 2rem;
-        height: 80%;
-        align-self: center;
-        max-width: 27rem;
- 
-    }
-}
-@media only screen and (min-width:1820px){
-    #email-button{
-        height: 3.8rem;
-}}
-
-@media only screen and (min-width:1200px){
-    .content-section{
-        width: 33rem;
-        
-}
-#last-ilustration{
-    width: 12rem;
-}
-.two-cards-section{
-    justify-content: space-evenly;
-    width: 35rem;
-}
-
-}
 /* <h3 class='secondary-color'>Read More..</h3>*/
