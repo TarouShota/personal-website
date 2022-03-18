@@ -10,15 +10,15 @@ let callback = (entries, observer) => {
     entries.forEach(entry => {
 
         if (entry.isIntersecting) {
-            target.setAttribute(
-                'style', 'opacity:100%'
-            )
+            setTimeout(target.setAttribute(
+                'style', 'opacity:1',
+            ), 3000)
             return console.log('I can see you')
 
         }
         if (!entry.isIntersecting) {
             target.setAttribute(
-                'style', 'opacity:0'
+                'style', 'opacity:1'
             )
         }
 
@@ -38,7 +38,7 @@ let target = document.querySelector('#welcome-div');
 
 
 observer.observe(target)
-//setTimeout(observer.observe(target), 2000)
+setTimeout(observer.observe(target), 2000)
 
 
 
