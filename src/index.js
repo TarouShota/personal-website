@@ -1,3 +1,5 @@
+//NEW IDEAS: Increase width in javascript, so elements will appear more dinamicly
+
 
 let firstBlock = document.querySelectorAll('#welcome-div');
 console.log(firstBlock);
@@ -10,20 +12,20 @@ let callback = (entries, observer) => {
     entries.forEach(entry => {
 
         if (entry.isIntersecting) {
-            target.setAttribute(
-                'style', 'opacity:100%'
-            )
-            return console.log('I can see you')
+            target.classList.add('bit-bigger')
+            console.log(target.style);
+            console.log('I can see you')
 
         }
         if (!entry.isIntersecting) {
             target.setAttribute(
-                'style', 'opacity:0'
+                'class', 'content-section'
             )
         }
 
     })
 }
+
 
 
 let options = {
@@ -34,11 +36,12 @@ let options = {
 
 let observer = new IntersectionObserver(callback, options);
 
-let target = document.querySelector('#welcome-div');
-
+let target = document.querySelector('.content-section');
+let ilustration = document.querySelector('#main-ilustration');
 
 observer.observe(target)
-//setTimeout(observer.observe(target), 2000)
+
+setTimeout(observer.observe(target), 2000)
 
 
 
