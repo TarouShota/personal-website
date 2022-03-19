@@ -12,36 +12,54 @@ let callback = (entries, observer) => {
     entries.forEach(entry => {
 
         if (entry.isIntersecting) {
-            target.classList.add('bit-bigger')
-            console.log(target.style);
-            console.log('I can see you')
+            toTransform.forEach(element => {
+                element.classList.add('bit-bigger')
+                return console.log(element);
+            });
+            //target.classList.add('bit-bigger')
+
+            return console.log('I can see you')
 
         }
         if (!entry.isIntersecting) {
-            target.setAttribute(
-                'class', 'content-section'
-            )
+            toTransform.forEach(element => {
+                element.classList.add('hiden');
+                return console.log(element)
+
+            })
+            return console.log('I cant see you');
+
         }
 
     })
 }
 
 
+let articleSection = document.querySelector('#welcome-article');
 
 let options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.8
+    threshold: 1
 }
-
 let observer = new IntersectionObserver(callback, options);
 
-let target = document.querySelector('.content-section');
+let target = document.querySelectorAll('.content-section');
 let ilustration = document.querySelector('#main-ilustration');
 
-observer.observe(target)
 
-setTimeout(observer.observe(target), 2000)
+
+let toTransform = [...target];
+console.log(toTransform)
+
+
+toTransform.forEach(element => {
+    observer.observe(element)
+});
+
+//observer.observe(toTransform)
+
+//setTimeout(observer.observe(target), 2000)
 
 
 

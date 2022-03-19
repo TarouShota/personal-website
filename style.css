@@ -150,6 +150,10 @@ article p{
         background-color: black;
         margin-left: -8rem;
     }*/
+    .content-section{
+        transition:all 1000ms ease-in 0.2s;
+        opacity: 0;
+    }
     ul li{
        
         padding-left:3rem;
@@ -167,16 +171,19 @@ article p{
         background-color: rgba(0, 52, 89, 0.15);
         border:#DAE0DD 0.3rem solid;
         border-radius: 1.8rem;
-        width: 85vw;
+        width: 50vw;
         padding: 3rem 2rem 3rem;
         align-self: center;
+        transform: translateX(200px);
     }
-    #main-ilustration{
+    .main-ilustr{
+        transform: rotate(330deg); 
         align-self: flex-start;
         width: 25rem;
         padding-right: 3rem;
         margin-top:5rem;
-        transition: 1500ms cubic-bezier(0, 1.3, 0, 2.23) 0.3s;
+        transition:all 1000ms ease-in 0.2s;
+        opacity: 0;
 
     }
     #main-ilustration:hover{
@@ -193,18 +200,26 @@ article p{
     }
    
     main article> section>div{
-        /* transform: rotate(270deg); */
+         /* transform: rotate(330deg);  */
         opacity: 0;
         padding-bottom: 0rem;
         transition:all 1000ms ease-in 0.2s;
+     
+        
         
 
     }
+    .hiden{
+        opacity: 0;
+    }
+
     .bit-bigger{
         opacity: 1;
-        /* transform: rotate(360deg); */
+         /* transform: rotate(360deg);  */
+         transform: translateX(-0px);
+
     }
-  
+ 
 
 
    
@@ -345,7 +360,8 @@ li a{
         /*border:#DAE0DD solid 0.3rem;*/
     }
     .content-section{
-        width: 85vw
+        width: 85vw;
+        margin-bottom:2rem;
     }
     .contact img{
         width: 2.7rem;
