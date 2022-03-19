@@ -163,12 +163,24 @@ article p{
         margin-top: 8rem;
         margin-bottom: 9rem;
     }
+    .content-section{
+        background-color: rgba(0, 52, 89, 0.15);
+        border:#DAE0DD 0.3rem solid;
+        border-radius: 1.8rem;
+        width: 85vw;
+        padding: 3rem 2rem 3rem;
+        align-self: center;
+    }
     #main-ilustration{
         align-self: flex-start;
-        width: 33rem;
+        width: 25rem;
         padding-right: 3rem;
         margin-top:5rem;
+        transition: 1500ms cubic-bezier(0, 1.3, 0, 2.23) 0.3s;
 
+    }
+    #main-ilustration:hover{
+    width: 30rem;
     }
     #lia-page{
         margin-bottom: -1.8rem;
@@ -179,13 +191,18 @@ article p{
     #lia-page-section{
         border-radius: 2rem;
     }
-    main > article section{
-
-    }
-    #welcome-div{
+   
+    main article> section>div{
+        /* transform: rotate(270deg); */
         opacity: 0;
         padding-bottom: 0rem;
-        transition: opacity 2000ms cubic-bezier(0.98, -0.33, 0.59, 1.55) 0.3s;
+        transition:all 1000ms ease-in 0.2s;
+        
+
+    }
+    .bit-bigger{
+        opacity: 1;
+        /* transform: rotate(360deg); */
     }
   
 
@@ -193,14 +210,7 @@ article p{
    
    
    
-        .content-section{
-        background-color: rgba(0, 52, 89, 0.15);
-        border:#DAE0DD 0.3rem solid;
-        border-radius: 1.8rem;
-        width: 85vw;
-        padding: 3rem 2rem 3rem;
-        align-self: center;
-    }
+  
     section > p{
         line-height: 3rem;
         padding-top:0.8rem;
