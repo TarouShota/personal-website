@@ -14,7 +14,9 @@ let callback = (entries, observer) => {
         if (entry.isIntersecting) {
             toTransform.forEach(element => {
                 element.classList.add('bit-bigger')
-                return console.log(element);
+                console.log(element);
+                console.log(entry);
+                console.log(entries);
             });
             //target.classList.add('bit-bigger')
 
@@ -40,7 +42,7 @@ let articleSection = document.querySelector('#welcome-article');
 let options = {
     root: null,
     rootMargin: '0px',
-    threshold: 1
+    threshold: 0.8
 }
 let observer = new IntersectionObserver(callback, options);
 
@@ -50,12 +52,13 @@ let ilustration = document.querySelector('#main-ilustration');
 
 
 let toTransform = [...target];
+
 console.log(toTransform)
 
 
-toTransform.forEach(element => {
-    observer.observe(element)
-});
+
+observer.observe(target[0]);
+
 
 //observer.observe(toTransform)
 

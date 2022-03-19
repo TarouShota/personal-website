@@ -217,6 +217,7 @@ article p{
         opacity: 1;
          /* transform: rotate(360deg);  */
          transform: translateX(-0px);
+         width: 33rem;
 
     }
  
@@ -359,10 +360,7 @@ li a{
         margin-top:6rem;
         /*border:#DAE0DD solid 0.3rem;*/
     }
-    .content-section{
-        width: 85vw;
-        margin-bottom:2rem;
-    }
+   
     .contact img{
         width: 2.7rem;
     }
@@ -393,11 +391,7 @@ li a{
         height: 3.8rem;
 }}
 
-@media only screen and (min-width:1200px){
-    .content-section{
-        width: 33rem;
-        
-}
+
 #last-ilustration{
     width: 12rem;
 }
@@ -406,5 +400,5 @@ li a{
     width: 35rem;
 }
 
-}
+
 /* <h3 class='secondary-color'>Read More..</h3>*/
