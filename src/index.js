@@ -12,24 +12,19 @@ let callback = (entries, observer) => {
     entries.forEach(entry => {
 
         if (entry.isIntersecting) {
-            toTransform.forEach(element => {
-                element.classList.add('bit-bigger')
-                console.log(element);
-                console.log(entry);
-                console.log(entries);
-            });
+            entry.target.classList.add('bit-bigger')
+
+            console.log(entry.target);
+            console.log(entries);
+
             //target.classList.add('bit-bigger')
 
             return console.log('I can see you')
 
         }
         if (!entry.isIntersecting) {
-            toTransform.forEach(element => {
-                element.classList.add('hiden');
-                return console.log(element)
+            entry.target.classList.add('hiden');
 
-            })
-            return console.log('I cant see you');
 
         }
 
@@ -56,8 +51,9 @@ let toTransform = [...target];
 console.log(toTransform)
 
 
-
-observer.observe(target[0]);
+toTransform.forEach(element => {
+    observer.observe(element)
+});
 
 
 //observer.observe(toTransform)
