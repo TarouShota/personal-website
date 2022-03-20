@@ -1,4 +1,6 @@
+
 let callback = (entries, observer) => {
+
     entries.forEach(entry => {
 
         if (entry.isIntersecting) {
