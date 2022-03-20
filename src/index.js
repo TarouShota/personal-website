@@ -1,45 +1,6 @@
 //NEW IDEAS: Increase width in javascript, so elements will appear more dinamicly
-
-
-let firstBlock = document.querySelectorAll('#welcome-div');
-console.log(firstBlock);
-
-const visibility = document.visibilityState
-console.log(visibility);
-
-
-let callback = (entries, observer) => {
-    entries.forEach(entry => {
-
-        if (entry.isIntersecting) {
-            entry.target.classList.add('bit-bigger')
-
-            console.log(entry.target);
-            console.log(entries);
-
-            //target.classList.add('bit-bigger')
-
-            return console.log('I can see you')
-
-        }
-        if (!entry.isIntersecting) {
-            entry.target.classList.add('hiden');
-
-
-        }
-
-    })
-}
-
-
-let articleSection = document.querySelector('#welcome-article');
-
-let options = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.8
-}
-let observer = new IntersectionObserver(callback, options);
+import { callback, options, observer } from './opacTransform.js'
+import './style.css';
 
 let target = document.querySelectorAll('.content-section');
 let ilustration = document.querySelector('#main-ilustration');
