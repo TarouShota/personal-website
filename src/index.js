@@ -1,6 +1,7 @@
 //NEW IDEAS: Increase width in javascript, so elements will appear more dinamicly
-import { callback, options, observer } from './opacTransform.js'
 import './style.css';
+
+import { callback, options, observer } from './opacTransform.js'
 
 
 

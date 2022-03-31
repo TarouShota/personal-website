@@ -168,9 +168,6 @@ console.log(twoSum([4, 3, 1, 2], 6));
 console.log(twoSum([5, 1, 3, 4, 5, 8], 10));
 */ ///
 //import { Scrollbar } from "smooth-scrollbar/scrollbar";
-var options = {
-    'damping': 0.00001
-};
-Scrollbar.init(document.querySelector("#my-scrollbar"));
+
 
 //# sourceMappingURL=index.672d4772.js.map
