@@ -10,7 +10,7 @@ let ilustration = document.querySelector('#main-ilustration');
 
 
 
-
+//old js project
 let toTransform = [...target];
 
 console.log(toTransform)
