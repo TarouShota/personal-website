@@ -1,4 +1,5 @@
 //NEW IDEAS: Increase width in javascript, so elements will appear more dinamicly
+//Recreate this website using React styled comp and Next.js! 
 import './style.css';
 
 import { callback, options, observer } from './opacTransform.js'
