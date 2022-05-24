@@ -1,5 +1,7 @@
 //NEW IDEAS: Increase width in javascript, so elements will appear more dinamicly
 //Recreate this website using React styled comp and Next.js! 
+//today's tasks are basically map and set, solved problem and use of firebase, introduction to node.js and express
+//gym of course 
 import './style.css';
 
 import { callback, options, observer } from './opacTransform.js'
